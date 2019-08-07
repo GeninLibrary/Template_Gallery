@@ -1,0 +1,64 @@
+* {
+    background-color:beige;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+h1 {
+   text-align: center;
+   line-height: 2;
+}
+
+h1 span {
+    width: 200px;
+    background-color: aliceblue;
+}
+
+p {
+    line-height: 2;
+    width: 100%;
+    margin: 20px auto;
+}
+
+p span {
+    background-color: aliceblue;
+}
+
+span:hover {
+    background-color: mediumaquamarine;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 5px solid black;
+}
+
+img:hover {
+    box-shadow: 10px 10px grey;
+}
+
+.nav {
+    display: table;
+    margin: 0 auto;
+}
+
+ul {
+    align-content: center;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0px 50px 0px
+}
+
+.photo_gallery {
+    display: flex;
+    /* flex-direction: row-reverse; */  
+    flex-wrap: wrap;  
+    align-items: center;  
+}
