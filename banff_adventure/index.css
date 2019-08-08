@@ -62,3 +62,14 @@ li {
     flex-wrap: wrap;  
     align-items: center;  
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer h1:hover{
+    background-color: lightblue;
+    padding: 10px
+}
+
