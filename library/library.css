@@ -1,0 +1,21 @@
+* {
+    background: url("https://img1.goodfon.com/wallpaper/nbig/b/59/stol-starina-retro-cveta.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 60px;
+}
+
+/* p {
+    font-family: 'Libre Caslon Text', serif;
+} */
+
